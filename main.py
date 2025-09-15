@@ -4,7 +4,7 @@ from datetime import datetime
 
 app = FastAPI()
 
-DATABASE_URL = "postgresql://neondb_owner:npg_xmfFnBqJM4W9@ep-billowing-sea-afsmwt32-pooler.c-2.us-west-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+DATABASE_URL = "postgresql://neondb_owner:npg_RcvO5wqdbMt0@ep-shiny-salad-afnmotb6-pooler.c-2.us-west-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 @app.post("/log")
 async def log_data(req: Request):
